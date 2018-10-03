@@ -10,7 +10,7 @@ public class DictionaryManagement {
         int i;
         System.out.print("So luong tu can nhap : ");
         int size = scan.nextInt();
-
+        scan.nextLine();
         for(i=0;i<size;i++) {
             System.out.print("Nhap tu moi : ");
 
